@@ -1,0 +1,9 @@
+num = int(input("Digite o numero inicial: "))
+numb = int(input("digite o numero final: "))
+numa = num + 1 
+voltas = numb - num
+while (voltas != numb):
+    print("Volta numero {} a soma é \n {} + {} = {}".format(voltas, num, numa, num + numa))
+    num = num + numa
+    voltas += 1
+    numa += 1
